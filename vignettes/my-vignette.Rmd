@@ -1,0 +1,32 @@
+---
+title: "Question 2 Vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, echo=F}
+library(Question2)
+```
+
+
+# Introduction
+
+This is very short example of a vignette.  You can use Rmarkdown to basically design this. 
+The package contains one function called `myfunctions`, which takes two arguments. 
+Good news to test this you don't even have to load the data. You can use include data `mydata`.
+
+So the easiest way to test this package is using the following command
+```{r, eval=F}
+studentnumber <- 100
+results <- myfunctions(mydata, studentnumber)
+```

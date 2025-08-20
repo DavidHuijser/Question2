@@ -1,0 +1,25 @@
+Package: Question2
+Title: Mean and Variance in C++
+Version: 0.0.0.9000
+Authors@R: 
+    person("David", "Huijser", , "david.huijser@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = ""))
+Description: This package takes a numerical value, the studentnumber and adds to every element in a vector. Then it proceeds by calculating the mean and variance of this vector in C++. 
+    Afer that it compares the result with the standard R-functions. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+LazyData: true
+VignetteBuilder: knitr
