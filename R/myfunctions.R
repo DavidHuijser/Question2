@@ -1,6 +1,6 @@
 #' myfunctions
 #'
-#' Add the studentnumber to a vector x and calculates the variance and mean in C++.
+#' Add the student number to a vector x and calculates the variance and mean in C++.
 #'
 #' @param x numeric vector
 #' @param studentnumber numeric value
