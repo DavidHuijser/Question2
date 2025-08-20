@@ -15,5 +15,5 @@ myfunctions(x, studentnumber)
 Add the \code{studentnumber} to  \code{x} and returns the mean and variance.
 }
 \description{
-Add the studentnumber to a vector x and calculates the variance and mean in C++.
+Add the student number to a vector x and calculates the variance and mean in C++.
 }
